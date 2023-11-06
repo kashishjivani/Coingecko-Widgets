@@ -1,0 +1,82 @@
+.crypto-token-name-widget {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 480px;
+    text-align: left;
+}
+
+.select-div {
+    padding-top: 5px;
+}
+
+select {
+    width: 125px;
+    height: 21px;
+}
+
+.widget-container {
+    margin-top: 30px;
+    border: 2px solid #e1e5ea;
+    border-radius: 10px;
+    width: 500px;
+    min-height: 135px;
+}
+
+.widget-header {
+    display: flex;
+    padding: 12px 0;
+}
+
+.image-div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.name-price-div {
+    width: 67%;
+    border: none;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.other-info-div {
+    border-top: 2px solid #e1e5ea;
+    clear: both;
+}
+
+.rank-div {
+    text-align: center;
+    float: left;
+    width: 33%;
+    font-size: 12px;
+    padding: 12px 0;
+    border-right: 2px solid #e1e5ea;
+    line-height: 1em;
+}
+
+.market-cap-div {
+    text-align: center;
+    float: left;
+    width: 33%;
+    font-size: 12px;
+    padding: 12px 0;
+    border-right: 2px solid #e1e5ea;
+    line-height: 1em;
+}
+
+.volume-div {
+    text-align: center;
+    float: left;
+    width: 33%;
+    font-size: 12px;
+    padding: 12px 0;
+    line-height: 1em;
+}

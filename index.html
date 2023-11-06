@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coingecko Widgets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="crypto-token-name-widget">
+        <h2>Crypto Token Information</h2>
+        <label for="tokenName">Select Token Name</label>
+        <br>
+        <div class="select-div">
+            <select type="text" id="tokenName" placeholder="Enter token name...">
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="tether">Tether</option>
+                <option value="usd-coin">USD-Coin</option>
+            </select>
+        <button class="btn" onclick="fetchTokenInfo()">Get Details</button>
+    </div>
+    </div>
+    <div class="crypto-token-info-widget" id="infoContainer"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
